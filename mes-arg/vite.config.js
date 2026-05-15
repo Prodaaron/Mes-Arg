@@ -8,5 +8,12 @@ export default defineConfig({
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] }),  svgr()
-  ],
+  ], 
+
+  server: {
+    watch: {
+      usePolling: true,
+      interval: 100,
+    },
+  },
 })
