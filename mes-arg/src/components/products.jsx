@@ -96,7 +96,7 @@ const products = () => {
             <h2>Featured Collection</h2>
 
             <p>
-              High-quality footwear products crafted with precision and modern
+              High-quality products crafted with precision and modern
               manufacturing standards.
             </p>
           </div>
