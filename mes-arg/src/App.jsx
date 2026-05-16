@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar/navbar.jsx";
 import Hero from "./components/Hero/hero.jsx";
+import Products from "./components/products.jsx";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Navbar />
 
       <Hero />
+      <Products />
 
       <section
         style={{
