@@ -8,7 +8,6 @@ function App() {
       <Navbar />
 
       <Hero />
-      <Products />
 
       <section
         style={{
@@ -26,6 +25,8 @@ function App() {
           Main Content
         </h2>
       </section>
+
+      <Products />
     </>
   );
 }
