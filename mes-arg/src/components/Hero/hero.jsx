@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero" className="hero">
       <div className="hero-content">
         <h1>Thriving Since 2001 E.C.</h1>
-        <p>16 Years of Pure Excellence, Mes-Arg Plast.</p>
+        <p>16 Years ● Pure Excellence.</p>
       </div>
     </section>
   );
