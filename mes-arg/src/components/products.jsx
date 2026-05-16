@@ -37,7 +37,7 @@ const products = () => {
     },
     {
       id: 5,
-      name: "Minimal Black Slides",
+      name: "White PVC Granules",
       category: "White Granules",
     //   price: "$42",
       image:
@@ -45,7 +45,7 @@ const products = () => {
     },
     {
       id: 6,
-      name: "Summer EVA Sandals",
+      name: "Colored PVC Granules",
       category: "Color Granules",
     //   price: "$26",
       image:
