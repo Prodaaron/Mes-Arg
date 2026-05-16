@@ -4,8 +4,8 @@ function Hero() {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <h1>16 Years of Excellence</h1>
-        <p>Black hero section with smooth navbar transition.</p>
+        <h1>Thriving Since 2001 E.C.</h1>
+        <p>16 Years of Pure Excellence, Mes-Arg Plast.</p>
       </div>
     </section>
   );
