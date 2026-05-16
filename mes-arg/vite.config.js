@@ -7,10 +7,14 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] }),  svgr()
-  ], 
+    babel({
+      presets: [reactCompilerPreset()]
+    }),
+    svgr(),
+  ],
 
   server: {
+    hmr: true,
     watch: {
       usePolling: true,
       interval: 100,
