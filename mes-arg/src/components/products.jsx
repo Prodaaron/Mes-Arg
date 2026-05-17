@@ -41,7 +41,7 @@ const products = () => {
       category: "White Granules",
     //   price: "$42",
       image:
-        "./mes-arg-pvc-granules-colorless.png",
+        "./mes-arg-pvc-granules-color-white.png",
     },
     {
       id: 6,
