@@ -20,10 +20,10 @@
 }
 
 .navbar-scrolled {
-  background: rgba(243, 244, 246, 0.85);
+  background: #062e67c6;
   backdrop-filter: blur(10px);
 
-  color: #111827;
+  color: #fff;
 
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
 }
@@ -51,7 +51,7 @@
 
 /* When scrolled → dark logo */
 .logo-scrolled {
-  color: #111827;
+  color: #fff;
 
   transform: scale(0.96);
 }
