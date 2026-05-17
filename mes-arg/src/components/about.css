@@ -1,0 +1,154 @@
+/* About.css */
+
+.about-page {
+  background: #05070b;
+  color: #f3f4f6;
+}
+
+/* HERO */
+
+.about-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 120px 8%;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: rgba(11, 78, 162, 0.15);
+  filter: blur(120px);
+  top: -100px;
+  right: -100px;
+}
+
+.about-hero-content {
+  max-width: 750px;
+  position: relative;
+  z-index: 2;
+}
+
+.about-tag {
+  color: #0b4ea2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.about-hero h1 {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  line-height: 1.05;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.about-hero h1 span {
+  color: #0b4ea2;
+
+  text-shadow:
+    0 0 10px rgba(11, 78, 162, 0.7),
+    0 0 25px rgba(11, 78, 162, 0.4);
+}
+
+.about-description {
+  color: #9ca3af;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 650px;
+}
+
+/* SECTION */
+
+.about-section {
+  padding: 120px 8%;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.section-label {
+  color: #0b4ea2;
+  margin-bottom: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-section h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.about-section p {
+  color: #9ca3af;
+  line-height: 1.9;
+  margin-bottom: 24px;
+  font-size: 17px;
+}
+
+/* STATS */
+
+.about-stats {
+  padding: 0 8% 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.stat-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(11, 78, 162, 0.4);
+}
+
+.stat-card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.stat-card p {
+  color: #9ca3af;
+  line-height: 1.7;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero {
+    padding: 120px 6%;
+  }
+
+  .about-section,
+  .about-stats {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}

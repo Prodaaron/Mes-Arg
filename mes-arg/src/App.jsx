@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar/navbar.jsx";
 import Hero from "./components/Hero/hero.jsx";
 import Products from "./components/products.jsx";
+import About from "./components/about.jsx";
 
 function App() {
   return (
@@ -9,22 +10,7 @@ function App() {
 
       <Hero />
 
-      <section
-        style={{
-          minHeight: "100vh",
-          background: "#f3f4f6",
-          padding: "100px 60px",
-        }}
-      >
-        <h2
-          style={{
-            fontSize: "48px",
-            color: "#111827",
-          }}
-        >
-          Main Content
-        </h2>
-      </section>
+      <About />
 
       <Products />
     </>
